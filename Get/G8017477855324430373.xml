@@ -27,7 +27,7 @@
   <openSearch:startIndex>1</openSearch:startIndex>
   <openSearch:itemsPerPage>1</openSearch:itemsPerPage>
   
-  <entry>
+  <entry xmlns:app='http://purl.org/atom/app#'>
     <id>15DvyGpcWCvDfT8kXMBf_pFJ1Je16hdy1</id>
     <published>2018-03-18T06:57:00.001-07:00</published>
     <updated>2018-03-19T00:13:48.794-07:00</updated>
@@ -44,6 +44,10 @@
       <gd:image rel='' width='32' height='32' src=''/>
     </author>
     <thr:total>0</thr:total>
+        
+<app:control>
+<app:draft>yes</app:draft>
+</app:control>
     </entry>
   
   
