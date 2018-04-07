@@ -7,7 +7,7 @@
 <title>Horror Zombies</title>
 <style type="text/css">
 .dosbox-container { width: 640px; height: 400px; }
-.dosbox-container > .dosbox-overlay { background: url(); }
+.dosbox-container > .dosbox-overlay { background: url(HorrorZombies.png); }
 </style>
 </head>
 <body>
@@ -15,12 +15,12 @@
 <br/>
 <button onclick="dosbox.requestFullScreen();">Make fullscreen</button>
   
-<script type="text/javascript" src="js-dos-api.js"></script>
+<script type="text/javascript" src="JsdosApi.js"></script>
 <script type="text/javascript">
 var dosbox = new Dosbox({
 id: "dosbox",
 onload: function (dosbox) {
-dosbox.run("Horror Zombies-caiiiycuk.zip", "./HZVGA.EXE");
+dosbox.run("HorrorZombiesCaiiiycuk.zip", "./HZVGA.EXE");
 },
 onrun: function (dosbox, app) {
 console.log("App '" + app + "' is runned");
